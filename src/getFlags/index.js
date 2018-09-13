@@ -7,7 +7,9 @@
  */
 
 const getFlags = arr => {
-// your logic
+                Array1 = arr[0].flags;
+                Array2 = arr[1].flags;
+                return Array1.concat(Array2);
 };
 
 export default getFlags;
